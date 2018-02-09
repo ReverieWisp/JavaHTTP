@@ -66,8 +66,8 @@ public class HTTPUtils {
 	
 	// Sends a POST request to the desired URL.
 	// There are two forms of this function, one of which takes 
-	public static Response SendPOSTRequest(String url) throws IOException { return SendPOSTRequest(url, ""); }
-	public static Response SendPOSTRequest(String url, String params) throws IOException
+	public static Response SendPOSTRequest(String url) { return SendPOSTRequest(url, ""); }
+	public static Response SendPOSTRequest(String url, String params)
 	{	
 		try
 		{
